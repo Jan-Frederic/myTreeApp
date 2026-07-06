@@ -5,8 +5,10 @@ on:
       - main
 jobs:
   build:
-
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
     - uses: actions/checkout@v3
@@ -30,7 +32,3 @@ permissions:
   contents: read
   pages: write
   id-token: write
-
-environment:
-  name: github-pages
-  url: ${{ steps.deployment.outputs.page_url }}
