@@ -1,8 +1,8 @@
 # MyTreeApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) and currently uses Angular 22.
 
-# Trouble Shooting
+## Troubleshooting
 
 Github Pages and 404 Error
 https://medium.com/@msmt0452/deploying-an-angular-project-to-github-pages-a-comprehensive-guide-e2eab2a43a16
